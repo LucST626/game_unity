@@ -11,5 +11,6 @@ public class MemeButton : MonoBehaviour
     {
         GameEvents.MemeChosen.Invoke(meme);
         Debug.Log("me presionaste");
+
     }
 }
